@@ -5,6 +5,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { HomeComponent } from './dukaan/home/home.component';
+import { CategoriesComponent } from './dukaan/categories/categories.component';
+import { PartnerComponent } from './dukaan/partner/partner.component';
 const routes: Routes =[
   {
     path: '',redirectTo: 'dashboard',  pathMatch: 'full',
@@ -16,6 +18,12 @@ const routes: Routes =[
   {
     path: 'home',component: HomeComponent
   }, 
+  {
+  path: 'categories/:id',component: CategoriesComponent
+  },
+{
+path: 'partner',component: PartnerComponent
+}
 ];
 
 @NgModule({

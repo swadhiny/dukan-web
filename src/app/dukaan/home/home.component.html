@@ -29,17 +29,18 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <!-- CSS Files -->
-  <link href="../assets/css/material-kit.css?v=2.0.6" rel="stylesheet" />
+  <link href="../assets/css/material-design.css" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="../assets/demo/demo.css" rel="stylesheet" />
+ <!-- <link href="../assets/demo/demo.css" rel="stylesheet" />-->
 </head>
 
 <body class="landing-page sidebar-collapse">
   <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="https://demos.creative-tim.com/material-kit/index.html">
-          Material Kit </a>
+        <a class="navbar-brand" href="#/home">
+         <img src="../assets/img/logo.png" class="imgLogo"/>
+		 </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="sr-only">Toggle navigation</span>
           <span class="navbar-toggler-icon"></span>
@@ -50,52 +51,38 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="dropdown nav-item">
-            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-              <i class="material-icons">apps</i> Components
+            <a href="#/partner" class="nav-link" >
+              <i class="fa fa-truck" aria-hidden="true"></i> Be a Partner
             </a>
-            <div class="dropdown-menu dropdown-with-icons">
-              <a href="../index.html" class="dropdown-item">
-                <i class="material-icons">layers</i> All Components
-              </a>
-              <a href="https://demos.creative-tim.com/material-kit/docs/2.1/getting-started/introduction.html" class="dropdown-item">
-                <i class="material-icons">content_paste</i> Documentation
-              </a>
-            </div>
+           
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
-              <i class="material-icons">cloud_download</i> Download
+            <a class="nav-link" href="#/partner" >
+              <i class="fa fa-building" aria-hidden="true"></i> Add your buiness
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" data-original-title="Follow us on Twitter">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank" data-original-title="Like us on Facebook">
-              <i class="fa fa-facebook-square"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" data-original-title="Follow us on Instagram">
-              <i class="fa fa-instagram"></i>
-            </a>
-          </li>
+        
         </ul>
       </div>
     </div>
   </nav>
   <div class="page-header header-filter" data-parallax="true" style="background-image: url('../assets/img/profile_city.jpg')">
     <div class="container">
+	 <div class="row">
+        <div class="col-md-6  ml-auto mr-auto">
+          <h2 class="title" >You Choose, We Deliver</h2>
+       
+        </div>
+      </div>
       <div class="row">
-        <div class="col-md-6">
-          <h1 class="title">Your Story Starts With Us.</h1>
-          <h4>Every landing page needs a small description after the big bold title, that&apos;s why we added this text here. Add here all the information that can make you or your product create the first impression.</h4>
-          <br>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-danger btn-raised btn-lg">
-            <i class="fa fa-play"></i> Watch video
-          </a>
+        <div class="col-md-6  ml-auto mr-auto">      
+         <div  class="input-group no-border">
+		 <input  class="form-control" placeholder="Enter your location..." type="text" value="">
+		 <button class="btn btn-white btn-round btn-just-icon" mat-raised-button="" type="submit">
+		 <i  class="material-icons">search</i>
+		 <div  class="ripple-container"></div>
+		 </button>
+		 </div>
         </div>
       </div>
     </div>
@@ -105,149 +92,136 @@
       <div class="section text-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto">
-            <h2 class="title">Let&apos;s talk product</h2>
-            <h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn&apos;t scroll to get here. Add a button if you want the user to see more.</h5>
-          </div>
-        </div>
-        <div class="features">
+            <h2 class="title">Currently Serving</h2>
+			   <div class="team">
           <div class="row">
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-info">
-                  <i class="material-icons">chat</i>
-                </div>
-                <h4 class="info-title">Free Chat</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-success">
-                  <i class="material-icons">verified_user</i>
-                </div>
-                <h4 class="info-title">Verified Users</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-danger">
-                  <i class="material-icons">fingerprint</i>
-                </div>
-                <h4 class="info-title">Fingerprint</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+            <div class="col-md-3" *ngFor="let item of categories">
+              <div class="team-player">
+              <a href="#/categories/{{item.categoryId}}"> <div class="card card-plain">
+                 <div class="col-md-6 ml-auto mr-auto">
+                    <img src="../assets/img/categories/{{item.icon}}" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title ml-auto mr-auto">{{item.name}}
+                    <br>               
+                  </h4>
+                                
+                </div></a>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="section text-center">
-        <h2 class="title">Here is our team</h2>
-        <div class="team">
-          <div class="row">
-            <div class="col-md-4">
+           <!-- <div class="col-md-3">
               <div class="team-player">
                 <div class="card card-plain">
                   <div class="col-md-6 ml-auto mr-auto">
-                    <img src="../assets/img/faces/avatar.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                    <img src="../assets/img/categories/2.png" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                   </div>
-                  <h4 class="card-title">Gigi Hadid
+                  <h4 class="card-title">Stationary
                     <br>
-                    <small class="card-description text-muted">Model</small>
+                  
                   </h4>
-                  <div class="card-body">
-                    <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                      <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                  </div>
-                  <div class="card-footer justify-content-center">
-                    <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-twitter"></i></a>
-                    <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-instagram"></i></a>
-                    <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-facebook-square"></i></a>
-                  </div>
+                
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
               <div class="team-player">
                 <div class="card card-plain">
                   <div class="col-md-6 ml-auto mr-auto">
-                    <img src="../assets/img/faces/christian.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                    <img src="../assets/img/categories/3.png" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                   </div>
-                  <h4 class="card-title">Christian Louboutin
+                  <h4 class="card-title">Bakery
                     <br>
-                    <small class="card-description text-muted">Designer</small>
+                  
                   </h4>
-                  <div class="card-body">
-                    <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                      <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                  </div>
-                  <div class="card-footer justify-content-center">
-                    <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-twitter"></i></a>
-                    <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-linkedin"></i></a>
-                  </div>
+                
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+			<div class="col-md-3">
               <div class="team-player">
-                <div class="card card-plain">
+                  <div class="card card-plain">
                   <div class="col-md-6 ml-auto mr-auto">
-                    <img src="../assets/img/faces/kendall.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                    <img src="../assets/img/categories/4.png" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                   </div>
-                  <h4 class="card-title">Kendall Jenner
+                  <h4 class="card-title">Fast food
                     <br>
-                    <small class="card-description text-muted">Model</small>
+                  
                   </h4>
-                  <div class="card-body">
-                    <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                      <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                  </div>
-                  <div class="card-footer justify-content-center">
-                    <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-twitter"></i></a>
-                    <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-instagram"></i></a>
-                    <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-facebook-square"></i></a>
-                  </div>
+                
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="section section-contacts">
+          </div>
+        </div>
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto">
-            <h2 class="text-center title">Work with us</h2>
-            <h4 class="text-center description">Divide details about your product or agency work into parts. Write a few lines about each one and contact us about any further collaboration. We will responde get back to you in a couple of hours.</h4>
-            <form class="contact-form">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label class="bmd-label-floating">Your Name</label>
-                    <input type="email" class="form-control">
+          
+			   <div class="team">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="team-player">
+              <div class="card card-plain">
+                  <div class="col-md-6 ml-auto mr-auto">
+                    <img src="../assets/img/categories/5.png" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                   </div>
+                  <h4 class="card-title">Vegetables
+                    <br>
+                  
+                  </h4>
+                
                 </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label class="bmd-label-floating">Your Email</label>
-                    <input type="email" class="form-control">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-6 ml-auto mr-auto">
+                    <img src="../assets/img/categories/6.png" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                   </div>
+                  <h4 class="card-title">Gas
+                    <br>
+                  
+                  </h4>
+                
                 </div>
               </div>
-              <div class="form-group">
-                <label for="exampleMessage" class="bmd-label-floating">Your Message</label>
-                <textarea type="email" class="form-control" rows="4" id="exampleMessage"></textarea>
-              </div>
-              <div class="row">
-                <div class="col-md-4 ml-auto mr-auto text-center">
-                  <button class="btn btn-primary btn-raised">
-                    Send Message
-                  </button>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-6 ml-auto mr-auto">
+                    <img src="../assets/img/categories/7.png" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">Flowers
+                    <br>
+                  
+                  </h4>
+                
                 </div>
               </div>
-            </form>
+            </div>
+			<div class="col-md-3">
+              <div class="team-player">
+                 <div class="card card-plain">
+                  <div class="col-md-6 ml-auto mr-auto">
+                    <img src="../assets/img/categories/9.png" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">Meat & Fish
+                    <br>
+                  
+                  </h4>
+                
+                </div>
+              </div>
+            </div>
+          </div>-->
+        </div>
           </div>
         </div>
       </div>
+    
     </div>
   </div>
   <footer class="footer footer-default">
@@ -256,7 +230,7 @@
         <ul>
           <li>
             <a href="https://www.creative-tim.com">
-              Creative Tim
+              Digital Dukan
             </a>
           </li>
           <li>
@@ -264,16 +238,7 @@
               About Us
             </a>
           </li>
-          <li>
-            <a href="http://blog.creative-tim.com">
-              Blog
-            </a>
-          </li>
-          <li>
-            <a href="https://www.creative-tim.com/license">
-              Licenses
-            </a>
-          </li>
+         
         </ul>
       </nav>
       <div class="copyright float-right">
@@ -281,7 +246,7 @@
         <script>
           document.write(new Date().getFullYear())
         </script>, made with <i class="material-icons">favorite</i> by
-        <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
+        <a href="https://www.creative-tim.com" target="_blank">Digital Dukan</a> for a better web.
       </div>
     </div>
   </footer>

@@ -23,13 +23,16 @@ import {
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { HomeComponent } from './dukaan/home/home.component';
-
+import { CategoriesComponent } from './dukaan/categories/categories.component';
+import { PartnerComponent } from './dukaan/partner/partner.component';
+import { HttpClientModule } from '@angular/common/http'; 
 @NgModule({
   imports: [
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
+    HttpClientModule,
     ComponentsModule,
     RouterModule,
     AppRoutingModule,
@@ -41,9 +44,11 @@ import { HomeComponent } from './dukaan/home/home.component';
     AppComponent,
     AdminLayoutComponent,
     HomeComponent,
+    CategoriesComponent,
+    PartnerComponent,
 
   ],
-  providers: [],
+  providers: [HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
