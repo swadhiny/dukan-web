@@ -1,0 +1,213 @@
+[
+    {
+        "categoryId":1,
+        "name":"Grocorries",
+        "icon":"1.png",
+        "description":"Get all your products a one place",
+        "stores":[
+            {
+                "storId":1,
+                "name":"ABC Stores",
+                "address":"KIIT Square, Patia, Bhubaneswar",
+                "owner":"ABC",
+                "image":"",
+                "rating":3,
+                "alsoDeals":[
+                    {
+                        "category":2
+                    },
+                    {
+                        "category":3
+                    }                  
+                ]                 
+
+            }
+        ]
+    },
+    {
+        "categoryId":2,
+        "name":"Stationary",
+        "icon":"2.png",
+        "description":"Get all books, stationary Items here",
+        "stores":[
+            {
+                "storId":1,
+                "name":"Sai Stationary",
+                "address":"Patia Square, Bhubaneswar",
+                "owner":"Ajay",
+                "image":"",
+                "rating":2,
+                "alsoDeals":[
+                    {
+                        "category":2
+                    }
+                   
+                ]                 
+
+            }
+        ]
+    },
+    {
+        "categoryId":3,
+        "name":"Bakery",
+        "icon":"3.png",
+        "description":"Cakes, Buiscuits and Many more",
+        "stores":[
+            {
+                "storId":1,
+                "name":"ABC Bakery",
+                "address":"Saheed Nagar, Bhubaneswar",
+                "owner":"XYZ..",
+                "image":"",
+                "rating":3,
+                "alsoDeals":[
+                    {
+                        "category":2
+                    },
+                    {
+                        "category":3
+                    }                    
+                ]                 
+
+            }
+        ]
+    },
+    {
+        "categoryId":4,
+        "name":"Fast Food",
+        "icon":"4.png",
+        "description":"",
+        "stores":[
+            {
+                "storId":1,
+                "name":"ABC Fast Food",
+                "address":"",
+                "owner":"",
+                "image":"",
+                "rating":3,
+                "alsoDeals":[
+                    {
+                        "category":2
+                    },
+                    {
+                        "category":3
+                    }                    
+                ]                 
+
+            }
+        ]
+    },
+    {
+        "categoryId":5,
+        "name":"Vegetables",
+        "icon":"5.png",
+        "description":"",
+        "stores":[
+            {
+                "storId":1,
+                "name":"ABC Vegetables",
+                "address":"",
+                "owner":"",
+                "image":"",
+                "rating":3,
+                "alsoDeals":[
+                    {
+                        "category":2
+                    },
+                    {
+                        "category":3
+                    }                    
+                ]                 
+
+            }
+        ]
+    },{
+        "categoryId":6,
+        "name":"Gas Cylinders",
+        "icon":"6.png",
+        "description":"",
+        "stores":[
+            {
+                "storId":1,
+                "name":"Indian Oil Service",
+                "address":"",
+                "owner":"",
+                "image":"",
+                "rating":3,
+                "alsoDeals":[                                    
+                ]                 
+
+            },
+            {
+                "storId":2,
+                "name":"Bharat Gas Agency",
+                "address":"",
+                "owner":"",
+                "image":"",
+                "rating":3,
+                "alsoDeals":[                                    
+                ]                 
+
+            }
+        ]
+    },{
+        "categoryId":7,
+        "name":"Flowers",
+        "icon":"7.png",
+        "description":"",
+        "stores":[
+            {
+                "storId":1,
+                "name":"ABC Flourits",
+                "address":"",
+                "owner":"",
+                "image":"",
+                "rating":3,
+                "alsoDeals":[                                    
+                ]                 
+
+            },
+            {
+                "storId":2,
+                "name":"XYZ Flowers and Gift",
+                "address":"",
+                "owner":"",
+                "image":"",
+                "rating":3,
+                "alsoDeals":[                                    
+                ]                 
+
+            }
+        ]
+    },{
+        "categoryId":9,
+        "name":"Meat and Fist",
+        "icon":"9.png",
+        "description":"",
+        "stores":[
+            {
+                "storId":1,
+                "name":"Chillika Fresh",
+                "address":"",
+                "owner":"",
+                "image":"",
+                "rating":3,
+                "alsoDeals":[                                    
+                ]                 
+
+            },
+            {
+                "storId":2,
+                "name":"Nayapalli Mutton Fresh",
+                "address":"",
+                "owner":"",
+                "image":"",
+                "rating":3,
+                "alsoDeals":[                                    
+                ]                 
+
+            }
+        ]
+    }
+
+]
